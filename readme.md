@@ -1,5 +1,17 @@
 # mooncatparser
 
+### LaserCatCapture Notes
+
+Dependencies:
+`canvas`
+`fs`
+`readline`
+`events`
+`tinycolor2`
+`javascript-color-gradient`
+`@nastyox/rando.js`
+`gm`
+
 ### Official MoonCat Generation Library for the MoonCatRescue Ethereum Smart Contract
 
 This library exports a single function `mooncatparser` which takes a 5 byte hex `catId` and returns a 2D array of hex color value strings, or `null` for transparency.
@@ -77,6 +89,8 @@ The catId `0x00f9e605e3` represents the image:
 -----
 
 ## License
+
+Copyright © 2021 LaserCatCapture
 
 Copyright © 2017 ponderware ltd.
 
